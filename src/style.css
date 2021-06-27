@@ -1,1 +1,54 @@
 /* css */
+body {
+  background-color: #735d58;
+  text-align: center;
+}
+h1 {
+  font-style: italic;
+  color: #461c23;
+  font-size: 50px;
+}
+p {
+  background-color: blanchedalmond;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  color: #2f3840;
+  text-align: center;
+  padding: 90px;
+  line-height: 30px;
+}
+
+.intro {
+}
+
+img {
+  border-radius: 50%;
+  width: 800px;
+  height: 800px;
+  margin-top: 20px;
+}
+
+.link {
+  width: 100px;
+  height: 100px;
+  margin-top: 300px;
+}
+#circles {
+  display: flex;
+}
+
+#caixas-de-texto {
+  margin-top: 500px;
+  display: inline-block;
+}
+textarea {
+  margin-top: 200px;
+  text-align: justify;
+}
+#offset {
+  text-align: justify;
+}
+
+.buttons {
+}

@@ -1,14 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
-  <script src="index.js" type="module"></script>
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="Imagens/logoLaboratoria.jpeg"
+      type="image/x-icon"
+    />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="root">
+      <header>
+        <h1>Apocaliptic Game!</h1>
+      </header>
+      <hr />
+      <div id="circles">
+        <p class="intro">
+          Seres de outra galáxia estão invadindo o planeta Terra. <br />
+          Ajude a salvar a humanidade, trocando mensagens encriptadas através de
+          uma capsula do tempo.
+        </p>
+        <img src="Imagens/apocaliptico.jpg" alt="Imagem de cidade destruída" />
+        <p class="link">
+          Clique <a href="#texto-a-codificar">aqui</a> para acessar a cápsula do
+          tempo.
+        </p>
+      </div>
+      <div id="caixas-de-texto">
+        <textarea
+          name="capsula-digitar"
+          id="texto-a-codificar"
+          cols="30"
+          rows="10"
+          placeholder="Digite o texto aqui"
+        ></textarea>
+        <input
+          name="escolher-offset"
+          id="caixa-offset"
+          placeholder="Digite o offset"
+        />
+
+        <textarea
+          name="capsula-ler"
+          id="resposta"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <div class="btn">
+        <button id="codificar">Codificar</button>
+        <button id="decodificar">Decodificar</button>
+        <!-- <button id="msg-aleatoria">Receber Mensagem</button> -->
+      </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
