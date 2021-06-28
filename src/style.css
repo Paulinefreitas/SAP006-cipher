@@ -27,6 +27,7 @@ img {
   width: 800px;
   height: 800px;
   margin-top: 20px;
+  object-fit: cover;
 }
 
 .link {
