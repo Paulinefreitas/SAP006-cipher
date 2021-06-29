@@ -24,4 +24,4 @@ O usuário deverá:
     Codificar e/ou Descodificar;
     Aparecerá a mensagem codificada e/ou descodificada conforme solicitado.
 
-Os principais usuários do produtos são pessoas que gostam de jogos e enredos pós-apocalípticos.
+Os principais usuários do produto são pessoas que gostam de jogos e enredos pós-apocalípticos.
